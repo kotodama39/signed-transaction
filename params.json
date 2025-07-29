@@ -1,0 +1,9 @@
+{
+  "privateKey": "YOUR_PRIVATE_KEY",
+  "to": "0xRecipient_Address",
+  "valueInEth": "0.001",
+  "gasLimit": 0,
+  "gasPriceGwei": "0",
+  "nonce": 0,
+  "chainId": 1
+}

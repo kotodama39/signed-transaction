@@ -1,0 +1,23 @@
+{
+  "name": "signed-transaction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "create-params": "ts-node src/createParams.ts",
+    "signed": "ts-node src/genSignedTransaction.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ethers": "^6.15.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "web3": "^4.16.0"
+  }
+}
